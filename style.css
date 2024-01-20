@@ -1,0 +1,45 @@
+:root {
+  --background: #0a0908;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.gryffindor {
+  background-image: url(images/gryffindor.jpg);
+}
+
+.slytherin {
+  background-image: url(images/slytherin.jpg);
+}
+
+.hufflepuff {
+  background-image: url(images/hufflepuff.jpg);
+}
+
+.ravenclaw {
+  background-image: url(images/ravenclaw.jpg);
+}
+
+.parallax {
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */
