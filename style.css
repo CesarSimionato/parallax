@@ -1,5 +1,5 @@
 :root {
-  --background: #0a0908;
+  --banner: #0a0908;
 }
 
 * {
@@ -38,8 +38,31 @@ html {
   background-size: cover;
 }
 
-/* @media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-} */
+.effect {
+  position: fixed;
+  height: 100vh;
+
+  background: orange;
+}
+
+.effect.luminosity {
+  mix-blend-mode: luminosity;
+}
+
+.effect.multiply {
+  mix-blend-mode: multiply;
+}
+
+.effect.saturation {
+  mix-blend-mode: saturation;
+}
+
+.effect.soft-light {
+  mix-blend-mode: soft-light;
+}
+
+.effect video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
